@@ -1,7 +1,7 @@
-package com.devteamlab.mydemoshop.controllers;
+package com.devteamlab.mydemoshop.controller;
 
-import com.devteamlab.mydemoshop.entities.User;
-import com.devteamlab.mydemoshop.services.UserService;
+import com.devteamlab.mydemoshop.model.User;
+import com.devteamlab.mydemoshop.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;

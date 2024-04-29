@@ -1,6 +1,6 @@
-package com.devteamlab.mydemoshop.database;
+package com.devteamlab.mydemoshop.repository;
 
-import com.devteamlab.mydemoshop.entities.User;
+import com.devteamlab.mydemoshop.model.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 

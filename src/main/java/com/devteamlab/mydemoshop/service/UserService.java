@@ -1,7 +1,7 @@
-package com.devteamlab.mydemoshop.services;
+package com.devteamlab.mydemoshop.service;
 
-import com.devteamlab.mydemoshop.database.UserRepository;
-import com.devteamlab.mydemoshop.entities.User;
+import com.devteamlab.mydemoshop.repository.UserRepository;
+import com.devteamlab.mydemoshop.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
