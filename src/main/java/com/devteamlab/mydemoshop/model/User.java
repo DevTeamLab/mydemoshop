@@ -1,19 +1,19 @@
 package com.devteamlab.mydemoshop.model;
 
-import jakarta.persistence.Entity;
-import jakarta.persistence.Id;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import org.springframework.data.annotation.Id;
+import org.springframework.data.mongodb.core.mapping.Document;
 
-@Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
+@Document(collection = "Users")
 public class User {
 
     @Id
-    private Long id;
+    private String id;
     private String name;
     private String lastName;
     private Integer age;
