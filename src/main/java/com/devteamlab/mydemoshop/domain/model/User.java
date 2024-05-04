@@ -1,4 +1,4 @@
-package com.devteamlab.mydemoshop.model;
+package com.devteamlab.mydemoshop.domain.model;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.Id;
