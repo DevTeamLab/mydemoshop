@@ -1,6 +1,6 @@
-package com.devteamlab.mydemoshop.service;
+package com.devteamlab.mydemoshop.domain.service;
 
-import com.devteamlab.mydemoshop.model.User;
+import com.devteamlab.mydemoshop.domain.model.User;
 import com.devteamlab.mydemoshop.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

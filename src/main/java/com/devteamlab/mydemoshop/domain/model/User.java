@@ -1,4 +1,4 @@
-package com.devteamlab.mydemoshop.model;
+package com.devteamlab.mydemoshop.domain.model;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
